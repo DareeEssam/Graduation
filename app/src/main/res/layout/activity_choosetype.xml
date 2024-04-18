@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+   >
+
+
+ <TextView
+     android:id="@+id/Register"
+     android:layout_width="256dp"
+     android:layout_height="40dp"
+     android:text="@string/register_as"
+     android:textColor="#757575"
+     android:textSize="30sp"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteX="119dp"
+     tools:layout_editor_absoluteY="28dp" />
+
+ <ImageView
+     android:id="@+id/doctor"
+     android:layout_width="279dp"
+     android:layout_height="184dp"
+     android:src="@drawable/therapist"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.416"
+     app:layout_constraintStart_toStartOf="parent"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteY="106dp" />
+
+ <Button
+     android:id="@+id/therapist"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/therapist"
+     android:textSize="18sp"
+     android:backgroundTint="@color/button2"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteX="146dp"
+     tools:layout_editor_absoluteY="306dp" />
+
+ <ImageView
+     android:id="@+id/user"
+     android:layout_width="195dp"
+     android:layout_height="178dp"
+     android:src="@drawable/user"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.497"
+     app:layout_constraintStart_toStartOf="parent"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteY="385dp" />
+
+
+ <Button
+     android:id="@+id/user"
+     android:layout_width="134dp"
+     android:layout_height="48dp"
+     android:text="@string/user"
+     android:textSize="18sp"
+     android:backgroundTint="@color/button2"
+     tools:ignore="DuplicateIds,MissingConstraints,TextSizeCheck"
+     tools:layout_editor_absoluteX="146dp"
+     tools:layout_editor_absoluteY="575dp" />
+
+ <TextView
+     android:id="@+id/ContinueAs"
+     android:layout_width="110dp"
+     android:layout_height="28dp"
+     android:text="@string/continue_as"
+     android:textColor="@color/black"
+     app:layout_constraintTop_toBottomOf="@+id/user"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="MissingConstraints,TextSizeCheck"
+     tools:layout_editor_absoluteX="153dp" />
+
+ <ImageView
+     android:layout_width="44dp"
+     android:layout_height="39dp"
+     android:layout_margin="20dp"
+     android:layout_marginTop="24dp"
+     android:src="@drawable/google"
+     app:layout_constraintTop_toBottomOf="@id/ContinueAs"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="ContentDescription,MissingConstraints"
+     tools:layout_editor_absoluteX="102dp" />
+
+ <ImageView
+     android:id="@+id/imageView"
+     android:layout_width="44dp"
+     android:layout_height="39dp"
+     android:layout_margin="20dp"
+     android:layout_marginTop="1dp"
+     android:src="@drawable/apple"
+     app:layout_constraintTop_toBottomOf="@+id/ContinueAs"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="ContentDescription,MissingConstraints"
+     tools:layout_editor_absoluteX="183dp" />
+
+ <ImageView
+     android:layout_width="62dp"
+     android:layout_height="42dp"
+     android:layout_margin="20dp"
+     android:layout_marginTop="1dp"
+     android:src="@drawable/facebook"
+     app:layout_constraintTop_toBottomOf="@+id/ContinueAs"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     tools:ignore="ContentDescription,MissingConstraints"
+     tools:layout_editor_absoluteX="247dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

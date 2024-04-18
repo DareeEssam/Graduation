@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Graduation</string>
+    <string name="therapist">Therapist</string>
+    <string name="register_as">Register As</string>
+    <string name="way_2_self">Way 2 Self</string>
+    <string name="log_in">Log In</string>
+    <string name="continue_as">Continue As ..</string>
+    <string name="register">Register</string>
+    <string name="user">User</string>
 </resources>
